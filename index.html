@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo-tec.ico" type="image/x-icon">
+    <title>tectreinamentos informatica</title>
+    <style>
+        /* do Site*/
+       :root{
+
+        --preto:rgb(0, 0, 0);
+        --branco:rgb(255, 255, 255);
+        --cinza:rgb(210, 210, 210);
+       --verde:rgb(7, 90, 7);
+       --verde:rgb(99, 145, 99);
+
+       }
+        *{margin: 0;border: 0; padding: 0;}
+
+        html{font-family: Arial, Helvetica, sans-serif; font-size: 1em;}
+
+        header{background-color: black; color: white;  padding: 1%; position: fixed; width: 100%;}
+
+        nav{display: block;text-align:  center; padding :5px; font-size: 1.3em; word-spacing: 10px;} 
+a{text-decoration:  none;color: var(--branco);font-weight:bold ; }
+a:hover{color: var(--yellow);}
+        footer{background-color: black; color: white; padding: 1%; text-align: center;}
+
+        body{background-color:  var(--cinza);}
+
+        main{
+        background-color: var(--branco); 
+        padding: 1%; margin: auto;
+        width:90%;
+         margin-top: 2%; 
+         border-radius:15px ;
+         box-shadow: 0.5px 0.5px 10px 0px  var(--preto);
+         
+         }
+
+
+         aside{
+            background-color: var(--branco); 
+        padding: 1%; margin: auto;
+        width:90%;
+         margin-top: 2%; 
+         border-radius:15px ;
+         box-shadow: 0.5px 0.5px 10px 0px  var(--preto);
+
+         }
+        /*configuraçoes de titulo Haedlines*/
+        h1{font-size: 2em; margin-top: 2%;}
+        h2{font-size: 1em;}
+        h3{font-size: 1em;}
+        h4{font-size: 1em;}
+        h1,h2,h3,h4,h5,h6{padding-top: 0.5%;  padding-bottom: 0.5%;}
+
+/*configuraçoesde imagns*/
+
+img{width: 100%;}
+
+*/configuraçoes de paragrafo*/
+p{padding:-top 1%;padding-bottom: 1%;}
+
+
+
+/*Configuraçoes de paragrafos para dispositivos moveis */ 
+ @media (max-width: 800px) and (max-width:800px) {
+
+ p{padding-top: 3%;padding-bottom: 3%;}
+
+}
+
+
+
+/*Divs*/ 
+ .separador{margin-top:15%;}
+  .separador-conteudo{margin-top:0.5%;}
+
+ /*configuraçoes de divs para mobile*/
+ @media (max-width: 320px) and (max-width:1024px){
+    .separador{margin-top: 18%;}
+    .separador-conteudo{margin-top:3%;}
+ } 
+ /*configuraçoes da grade de conteudo  -Grid*/
+ #grid-conteudo{background-color: var( --red);}
+
+ .grid{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+    max-width: 1024px;
+    margin:auto;
+    gap:1px;
+
+}   
+.grid div{background-color:var(--white); text-align: center; padding: 2px;}
+
+/*Configuraçao par botom de açao*/
+button{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: var(--verde);
+    color: var(--branco);
+    border-radius:10px;
+    font-weight: bold;font: size 1.3em;
+    display: block;
+    margin:auto;
+    transition: 0.4s ease;
+}   
+button:hover{background: var(--verde); color: var(--branco); transform: scale(1.1);}
+
+    </style>
+</head>
+<body>
+  <!--Aqui vai o topo do site-->  
+<header> <h3>tectreinamentos informatica</h3>
+<h4>Desenvolvimento Front End</h4>
+
+<!--Aqui  Vamos inserir  os links do Site-->
+<nav>
+    <a href="#">inicio</a>
+    <a href="#">sobre</a>
+    <a href="#">cursos</a>
+</nav>
+</header>
+
+
+
+<br>
+<!--A Classe e utilizada quando temos necessidade de usar a mesma formatação diversas vezes no -->
+<div class="separador"></div>
+
+<br>
+
+
+
+<main>
+    <article> 
+        <h1>desenvolvimento  Front End: Curso Completo e Essencial</h1>
+        <br>
+
+  <h2> Aprenda com especialista e torne-se um(a) desenvolvedor(a) Front-End! </h2>
+    <br>
+     <p>Você já imaginou criar sites que impressionam tanto pelo visual quanto pela performance? 
+     <p>O front-end é a peça-chave por trás das interfaces que vemos e interagimos na web. Se você quer dominar essa área e conquistar oportunidades no mercado de tecnologia, 
+      nosso curso de Front-End é o caminho ideal!</p>
+
+     <p>Neste curso, você aprenderá tudo que precisa para se tornar um desenvolvedor 
+        front-end completo, capaz de criar experiências incríveis para os usuários.</p> 
+       <p> Não importa se você é iniciante ou já tem algum conhecimento, o conteúdo foi 
+        planejado para levar você do básico ao avançado, garantindo o domínio das principais ferramentas e tecnologias.</p>
+
+       <picture></picture> 
+      
+
+       <source media="(max-width: 800pxi)" srcset="img/imagem2"alt="Analista de sistemas">
+        <img src="img/imagem1.png" alt="Analista de sistemas">
+
+        </picture>
+        <br>
+       <button>Saiba mais</button>
+       <br>
+        
+        <p>O que você vai aprender?</p>
+
+<p>HTML5 e CSS3 : Domine a estrutura e o estilo das páginas web.</p>
+
+<p>JavaScript : Torne seus sites dinâmicos e interativos com uma das linguagens mais populares do mundo.</p>
+
+<p>Design Responsivo : Crie sites que se adaptam a qualquer tela, seja mobile, tablet ou desktop.</p>
+
+<p>Otimização de Desempenho : Técnicas para garantir que suas páginas sejam carregadas rapidamente e proporcionem uma experiência fluida.</p>
+
+<h2>  Por que esse curso é ideal para você? </h2>
+
+
+        <strong>Metodologia Prática</strong> : Você aprenderá codificando, com exercícios reais e testes que vão solidificar seu conhecimento.
+
+         <strong>Projetos Reais</strong> : Desenvolva projetos completos para montar um portfólio profissional e atrair a atenção de recrutadores.
+
+        Acesso Vitalício : Aprenda no seu ritmo e tenha acesso ao conteúdo sempre que precisar.
+
+    Suporte Exclusivo : Tire suas dúvidas diretamente com especialistas que atuam no mercado e estão prontos para ajudá-lo no </futuro>
+
+    <strong>Certificação Reconhecida</strong> : Ao concluir o curso, você recebe um certificado que comprova seu conhecimento e pode ser um diferencial no seu currículo.
+
+<h2>Para quem é este curso?</h2>
+
+Iniciantes : Não tem experiência com programação? Sem problemas! Nosso curso foi pensado para introduzir você aos conceitos fundamentais, com uma curva de aprendizado suave e prática.
+    
+ <br> Desenvolvedores em Transição de Carreira : Se você já tem experiência em outras áreas da tecnologia, mas quer migrar para o front-end, este curso vai acelerar seu processo de transiçã
+Profissionais de Design : Se você é designer e deseja levar suas habilidades para o próximo nível, criando sites completos e funcionais, este curso será uma ótima adição ao seu repertório. 
+    
+ Vantagens de Aprender Front-End Hoje
+    
+A demanda por desenvolvedores front-end não para de crescer, já que a presença digital das empresas é cada vez mais essencial. Sites bem construídos e funcionais são uma necessidade, e profissionais que dominam as técnicas de front-end estão sendo disputados no mercado.
+    
+ Altos Salários : As empresas pagam bem por quem sabe criar sites modernos e eficientes.
+    
+ Flexibilidade : Trabalhe em empresas renomadas ou atue como freelancer, criando sua própria carteira de clientes.
+
+
+
+Tecnologia em Constante Evolução : O front-end evolui rapidamente, e aprender essas habilidades agora vai garantir que você esteja preparado para o futuro.
+
+
+
+    </article>
+    <section></section>
+</main>
+<br>
+<div class="separador-conteudo"></div>
+
+<br>
+
+<aside>
+
+    <section id="grid-conteudo">
+     <div class="grid" >
+
+       <div>cargo1</div>
+        <div>auto</div>
+        <div>viral</div>
+        <div>esfera4</div>
+        <div>conteudo5</div>
+        <div>conteudo6</div>
+
+        
+        </div>
+
+
+    </section>
+
+</aside>
+<br>
+<div class="separador-conteudo"></div>
+
+<br>
+
+<footer>
+<h3>tectreinamentos Informática</h3>
+<h4>Desenvolvimento  Front End</h4>
+<br>
+<p>
+   <br> Contato : wagner.insta@gmail.com <br>
+   <br> wahtsapp : (11) 99999-9999 (somente mensagem) <br>
+   <br> cnpj:40.983.890/0001-67 <br>
+</p>
+
+</footer>
+
+
+</body>
+</html>
